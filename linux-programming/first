@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# first
+# This file looks through all the files in the current
+# directory for the sintr "main", and then prints the names of
+# those files to the standar output.
+
+for file in *
+do
+    if grep -l -n main $file
+    then
+        more $file
+    fi
+done
+
+exit 0
