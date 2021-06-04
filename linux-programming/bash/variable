@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# Testing variables
+# The variable myvar is created and assigned the string Hi there. The contents of the variable
+# are displayed with echo, showing how prefacing the variable with a $ character expands the
+# contents of the variable. You see that using double quotes doesn't affect the substitution of
+# the variable, while single quotes and the backslash do. You also use the read command to get
+# a string from the user.
+
+myvar="Hi there"
+
+echo $myvar
+echo "$myvar"
+echo '$myvar'
+echo \$myvar
+
+echo Enter some text
+read myvar
+
+echo '$myvar' now equals $myvar
+echo The number of parameters passed are $#
+
+if [ $# -gt 0 ] ; then
+    echo $*
+fi
+
+exit 0
+
