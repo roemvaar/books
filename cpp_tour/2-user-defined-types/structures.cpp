@@ -3,7 +3,6 @@
 using namespace std;
 
 // We can construct a vector like this
-
 struct Vector {
     int sz;         // number of elements
     double* elem;   // pointer to elements
@@ -31,7 +30,6 @@ double read_and_sum(int s)
     
     return sum;
 }
-
 
 int main()
 {

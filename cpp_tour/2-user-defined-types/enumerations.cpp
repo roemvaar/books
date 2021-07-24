@@ -18,6 +18,10 @@ enum class Traffic_light {green, yellow, red};
 Color col = Color::red;
 Traffic_light light = Traffic_light::red;
 
+// Note that enumarators (e.g. red) are in the scope of their enum class, so that
+// they can be used repeatedly in different enum classes without confusion. This is
+// not possible with enum data type.
+
 int main()
 {
     return 0;
