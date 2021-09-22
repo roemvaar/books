@@ -12,7 +12,7 @@
 int main()
 {
     printf("hello, world\n");
-    printf("Ohana means family\c"); // Unknown escape sequence
+    printf("Ohana means family"); // Unknown escape sequence
     
     return 0;
 }
