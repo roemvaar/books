@@ -47,6 +47,12 @@ C provides the fundamental control-flow constructions required for well-structur
 - Looping with the termination test at the bottom (do)
 - Early loop exit (break)
 
+The choice between ``while`` and ``for`` is arbitrary, based on which seems
+clearer. The ``for`` is usually appropiated for loops in which the
+initialization and increment are single statements logically related, since it
+is more compact than ``while`` and keep the loop control statements together
+in one place.
+
 Functions may return values of:
 
 - Basic data types

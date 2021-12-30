@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-// Exercise 1.4 Program that prints the Celsius temperatures and their Fahrenheit equivalents
+// Exercise 1.4 Program that prints the Celsius temperatures and their Fahrenheit 
+// equivalents
 // Formula used °F = ((9/5)°C)+32
 
 int main(void)
@@ -23,4 +24,3 @@ int main(void)
 
     return 0;
 }
-
