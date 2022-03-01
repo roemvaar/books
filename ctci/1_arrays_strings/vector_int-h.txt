@@ -1,0 +1,6 @@
+#ifndef VECTOR_INT_H
+#define VECTOR_INT_H
+
+#include <stdio.h>
+
+#endif  /* VECTOR_INT_H */

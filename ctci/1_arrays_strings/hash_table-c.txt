@@ -1,0 +1,14 @@
+#include "hash_table.h"
+
+// For software design and implementation details, check the
+// CLRS - Intro to Algos book
+// Functions - Insert, Search, Delete
+// Use an array with linked list
+// Chaining to avoid coliisions
+// You need a hash function
+
+// Test Code for HashTable
+int main()
+{
+    return 0;
+}
