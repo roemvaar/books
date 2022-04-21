@@ -1,0 +1,11 @@
+#include "vector_int.h"
+
+// Vectors / ArrayLists - a vector is implemented with an array.
+// When the array hits capacity, the vector will create a new array
+// with double the capacity and copy all the elements over to the new array.
+
+// Test Code for Vector
+int main()
+{
+    return 0;
+}
