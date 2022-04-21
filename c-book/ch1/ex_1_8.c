@@ -1,7 +1,9 @@
+/*
+ * Exercise 1.8 Write a program that count blanks, tabs, and newlines
+ */
+
 #include <stdio.h>
 
-
-// Exercise 1.8 Write a program that count blank, tabs, and newlines
 
 int main(void)
 {
@@ -17,11 +19,9 @@ int main(void)
             case ' ': 
                 blanks++;
                 break;
-
             case '\t':
                 tabs++;
                 break;
-
             case '\n':
                 newlines++;
                 break;
@@ -34,4 +34,3 @@ int main(void)
 
     return 0;
 }
-

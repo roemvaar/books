@@ -1,7 +1,8 @@
-// This is a bare-bones version of the UNIX program wc
+/*
+ * Exercise 1.11 This is a bare-bones version of the UNIX program wc
+ */
 
 #include <stdio.h>
-
 
 #define IN 1    // Inside a word
 #define OUT 0   // Outside a word
@@ -30,8 +31,7 @@ int main(void)
         }
     }
     
-    printf("\n%d %d %d\n", nl, nw, nc);
+    printf("\nLines: %d \nWords: %d \nCharacters %d\n", nl, nw, nc);
 
     return 0;
 }
-

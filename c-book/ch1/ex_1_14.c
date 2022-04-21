@@ -1,6 +1,8 @@
-// Ex. 1.14 Write a program to print a histogram of the frequencies of
-// different characters in its inputi
-// Solution from https://stackoverflow.com/questions/17607402/kr-exercise-1-14
+/*
+ * Ex. 1.14 Write a program to print a histogram of the frequencies of
+ * different characters in its inputi
+ * Solution from https://stackoverflow.com/questions/17607402/kr-exercise-1-14
+ */
 
 #include <stdio.h>
 #include <ctype.h>
@@ -90,4 +92,3 @@ int main()
            upperc + lowerc, upperc, lowerc,
            punctc);
 }
-

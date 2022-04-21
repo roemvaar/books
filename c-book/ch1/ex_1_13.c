@@ -1,10 +1,10 @@
-// Ex. 1.13 Write a program to print a histogram of the lengths of words
-// in its input. It is easy to draw the histogram with the bars horizontal;
-// a vertical orientation is more challenging.
-
+/*
+ * Ex. 1.13 Write a program to print a histogram of the lengths of words
+ * in its input. It is easy to draw the histogram with the bars horizontal;
+ * a vertical orientation is more challenging.
+ */
 
 #include <stdio.h>
-
 
 #define IN 1    // Inside a word
 #define OUT 0   // Outside a word
@@ -13,10 +13,10 @@
 
 int main(void)
 {
-    int c;  // Current character
-    int nc; // Character count
-    int wc; // Word count
-    int words[MAXWORD]; // Character count for each individual word
+    int c;      // Current character
+    int nc;     // Character count
+    int wc;     // Word count
+    int words[MAXWORD];     // Character count for each individual word
     int state;
 
     nc = wc = 0;
@@ -63,4 +63,3 @@ int main(void)
 
     return 0;
 }
-
