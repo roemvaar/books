@@ -1,3 +1,5 @@
+// gcc -pthread -o thread thread.c -Wall
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -17,8 +19,8 @@ void *worker(void *arg)
 }
 
 /* Note: this code is not SMP safe - it produces incorrect
- * output when you pass as argument a big number. This occurs
- * because the loop at worker has three nstructions that do not
+ * output when you pass a big number as an argument. This occurs
+ * because the loop at worker has three instructions that do not
  * execute atomically (all at once), strange things can happen
  */
 int main(int argc, char *argv[])
@@ -43,3 +45,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
