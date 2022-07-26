@@ -14,11 +14,13 @@ int main(int argc, char *argv[])
   }
   else if(rc == 0) {  // child (new process)
     printf("hello, I am child (pid:%d)\n", (int)getpid());
-    char *myargs[3];
-    myargs[0] = strdup("wc");   // program: "wc" (word count)
-    myargs[1] = strdup("p3.c"); // argument: file to count
-    myargs[2] = NULL;           // marks end of array
-    execvp(myargs[0], myargs);  // runs word count
+    // char *myargs[3];
+    // myargs[0] = strdup("wc");   // program: "wc" (word count)
+    // myargs[1] = strdup("p3.c"); // argument: file to count
+    // myargs[2] = NULL;           // marks end of array
+    // execvp(myargs[0], myargs);  // runs word count
+    static char *argv[]={"ex1"};
+    execv("./ex1", argv);
     printf("this shouldn't print out");
   }
   else {
