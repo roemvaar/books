@@ -39,4 +39,16 @@ fn main() {
 
     // arrays
     let a = [1, 2, 3, 4, 5];
+
+    get_age(17);
+    get_age(25);
+}
+
+
+fn get_age(age: u32) {
+    if age < 18 {
+        println!("Not allow to get into the bar!");
+    } else {
+        println!("Welcome!");
+    }
 }

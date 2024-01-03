@@ -80,6 +80,43 @@ A vector is a similar collection type provided by the standard library
 that is allowed to grow or shrink in size. If you're unsure whether to
 use an array or a vector, chances are you should use a vector.
 
-* Functions
-* Comments
+## Functions
+
+We define a function in Rust by entering `fn` followed by a function name
+and a set of parenthesis. The curly brackets tell the compiler where the
+function body begins and ends.
+
+Rust doesn't care where you define your functions (before or after you call
+them), only that they're defined somewhere in a scope that can be seen by
+the caller.
+
+We can define functions to have parameters, which are special variables that
+are part of a function's signature. Technically, the concrete values are
+called arguments. In casual conversation, people tend to use the words
+parameters and argument interchangeably for either the variables in a
+function's definition or the concrete values passed in when you call a
+function.
+
+In function signatures, you must declare the type of each parameter.
+
+Functions bodies are made up of a series of statements optionally ending
+in an expression.
+
+Statements are instructions that perform some action and do not return
+a value.
+
+Expressions evaluate to a resultant value.
+
+## Comments
+
+Simple comment:
+
+``// Hello world`
+
+For comments that extend beyond a single line, you'll need to include `//`
+on each line.
+
+You'll more often see comments used in the format where the comment is on
+a separate line above the code it's annotating.
+
 * Control flow
