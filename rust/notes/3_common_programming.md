@@ -119,4 +119,12 @@ on each line.
 You'll more often see comments used in the format where the comment is on
 a separate line above the code it's annotating.
 
-* Control flow
+## Control flow
+
+If statements are expecting a boolean expresion, if the expression is true
+it will execute the block of code inside the brackts. You can also specify
+else if and else statements to control the flow of your program.
+
+## Repetition with Loops
+
+Rust has three kinds of loops: `loop`, `while`, and `for`.
