@@ -6,7 +6,7 @@ The design patterns are descriptions of communicating objects and
 and classes that are customized to solve a general design problem
 in a particular context.
 
-**A pattern has four essential elements:**
+## A pattern has four essential elements:
 
 1. The **pattern name** - it describes a design problem, its solution, and 
    consequences in a word or two.
@@ -19,10 +19,36 @@ in a particular context.
 
 4. The **consequences** - are the results and trade-offs of applying the pattern.
 
-**Three main patterns types:**
+## Three main patterns types:
 
-* Creational Patterns
+### Creational Patterns
 
-* Structural Patterns
+* Abstract Factory
+* **Builder**
+* **Factory Method**
+* Prototype
+* **Singleton**
 
-* Behavioral Patterns
+### Structural Patterns
+
+* **Adapter**
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Flyweight
+* Proxy
+
+### Behavioral Patterns
+
+* Chain of Responsibility
+* Command
+* Interpreter
+* Iterator
+* Mediator
+* Memento
+* **Observer**
+* **State**
+* **Strategy**
+* Template Method
+* Visitor
