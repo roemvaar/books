@@ -5,7 +5,10 @@ any reason to study algorithms? The answer is yes, if for no other reason than t
 you would still like to be certain that your solution method terminates and does so
 with the correct answer."
 
-You should choose algorithms that use the reouserces of time and space efficiently.
+You should choose algorithms that use the resources of time and space efficiently.
+
+Having a solid base of algorithmic knowledge and technique is one characteristic that
+defines the truly skilled programmer.
 
 ## References
 
