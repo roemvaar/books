@@ -79,6 +79,11 @@ int main()
     insertion_sort(numbers_2, 6);
     print_array(numbers_2, 6);
 
+    int numbers_3[] = {31,41,59,26,41,58};
+    print_array(numbers_3, 6);
+    insertion_sort(numbers_3, 6);
+    print_array(numbers_3, 6);
+
     return 0;
 }
 
